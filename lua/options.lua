@@ -3,7 +3,7 @@ local o = vim.o
 vim.g.mapleader = " "
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
-
+vim.o.guifont = "JetBrainsMono Nerd Font:h17"
 
 o.laststatus = 3 -- global statusline
 o.showmode = false
