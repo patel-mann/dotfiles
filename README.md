@@ -11,5 +11,8 @@ git clone https://codeberg.org/mannpatel/my-nvim-setup.git ~/.config/nvim && nvi
 ```bash
 git clone https://codeberg.org/mannpatel/my-nvim-setup.git $HOME\AppData\Local\nvim --depth 1 && nvim
 ```
-
 3. Run `:MasonInstallAll` command after lazy.nvim finishes downloading plugins
+
+
+## Resource / Disclaimer
+This code is forked from [Tinyvim by NvChad](https://github.com/NvChad/tinyvim). It is not my original work.
