@@ -1,6 +1,6 @@
 # TinyVim (my setup)
 - Minimal Neovim config meant to be a starting point for new neovim users.
-- Please 
+- Please check out the original work from [Tinyvim by NvChad](https://github.com/NvChad/tinyvim).
 
 # Install
 1. Linux or MacOS
