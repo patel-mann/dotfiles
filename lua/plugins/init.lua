@@ -106,17 +106,6 @@ return {
       vim.cmd("colorscheme vague")
     end
   },
-
-  {
-    "nanotech/jellybeans.vim",
-    lazy = false, -- load during startup
-    priority = 1000, -- make sure it loads before other UI plugins
-  },
-  {
-    "dgox16/oldworld.nvim",
-    lazy = false,
-    priority = 1000,
-  },
   {
     "rose-pine/neovim",
     name = "rose-pine",
@@ -132,4 +121,4 @@ return {
       vim.cmd("colorscheme rose-pine")
     end,
   },
- }
+}

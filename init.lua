@@ -22,4 +22,4 @@ local plugins = require "plugins"
 
 require("lazy").setup(plugins, require "lazy_config")
 
-vim.cmd "colorscheme vague"
+vim.cmd "colorscheme rose-pine"
