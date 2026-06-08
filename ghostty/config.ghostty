@@ -1,0 +1,31 @@
+shell-integration = zsh
+gtk-titlebar = false
+gtk-single-instance = false
+window-decoration = server
+app-notifications = false
+
+cursor-style = block
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+# theme = Dracula
+# theme = Gruvbox Dark Hard
+# theme = Gruvbox Light
+# theme = Kanagawabones
+theme = dark:Rose Pine,light:Rose Pine Dawn
+
+font-size = 18
+font-family = JetBrainsMono NF Medium
+# font-family = Iosevka NF ExtraBold
+# font-family = Iosevka NF
+
+clipboard-read = allow
+clipboard-write = allow
+
+mouse-hide-while-typing = true
+
+clipboard-trim-trailing-spaces = true
+clipboard-paste-protection = false
+
+# background-opacity = 0.8
+

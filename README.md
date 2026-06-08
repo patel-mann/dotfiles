@@ -2,7 +2,7 @@
 - Minimal Neovim config meant to be a starting point for new neovim users.
 - Please check out the original work from [Tinyvim by NvChad](https://github.com/NvChad/tinyvim).
 
-# Install
+## Install
 1. Linux or MacOS
 ```bash
 git clone https://github.com/patel-mann/my-nvim-setup.git ~/.config/nvim && nvim
@@ -13,6 +13,17 @@ git clone https://github.com/patel-mann/my-nvim-setup.git $HOME\AppData\Local\nv
 ```
 3. Run `:MasonInstallAll` command after lazy.nvim finishes downloading plugins
 
-
 ## Resource / Disclaimer
 This code is forked from [Tinyvim by NvChad](https://github.com/NvChad/tinyvim). It is not my original work.
+
+# Alacritty Setup
+## Install
+1. We use Alacritty's default Linux config directory as our storage location here.
+```bash
+mkdir -p ~/.config/alacritty/themes
+git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
+```
+2. Install Dotfile
+``` bash
+git clone https://github.com/patel-mann/my-alacritty-config.git ~/.config/alacritty mv ~/.config/alacritty/.alacritty.toml ~/
+```
