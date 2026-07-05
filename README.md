@@ -1,29 +1,15 @@
-# TinyVim (my setup)
+## My Dev Setup
 - Minimal Neovim config meant to be a starting point for new neovim users.
 - Please check out the original work from [Tinyvim by NvChad](https://github.com/NvChad/tinyvim).
 
-## Install
-1. Linux or MacOS
+### Neovim Setup
 ```bash
-git clone https://github.com/patel-mann/my-nvim-setup.git ~/.config/nvim && nvim
+git clone https://github.com/LazyVim/starter ~/.config/nvim && nvim
 ```
-2. Windows
-```bash
-git clone https://github.com/patel-mann/my-nvim-setup.git $HOME\AppData\Local\nvim --depth 1 && nvim
-```
-3. Run `:MasonInstallAll` command after lazy.nvim finishes downloading plugins
+> I've update my dev env form the last time to use the starter lazyvim from tinyvim 
 
-## Resource / Disclaimer
-This code is forked from [Tinyvim by NvChad](https://github.com/NvChad/tinyvim). It is not my original work.
-
-# Alacritty Setup
-## Install
-1. We use Alacritty's default Linux config directory as our storage location here.
-```bash
-mkdir -p ~/.config/alacritty/themes
-git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
-```
-2. Install Dotfile
+### Ghostty Setup
 ``` bash
-git clone https://github.com/patel-mann/my-alacritty-config.git ~/.config/alacritty mv ~/.config/alacritty/.alacritty.toml ~/
+mv ~/.config/ghostty/config.ghostty  ~/.config/ghostty/config.ghostty.bak
+curl --output-dir ~/.config/ghostty -O https://raw.githubusercontent.com/patel-mann/dotfiles/ghostty/config.ghostty 
 ```
