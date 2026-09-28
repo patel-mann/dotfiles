@@ -18,3 +18,9 @@ mv ~/.config/ghostty/config.ghostty  ~/.config/ghostty/config.ghostty.bak
 cd ~/.config/ghostty
 curl -O https://raw.githubusercontent.com/patel-mann/dotfiles/refs/heads/main/ghostty/config.ghostty
 ```
+### I3 Setup
+```bash
+dnf install nextcloud-client scrot picom feh
+dnf install git go nvim
+
+```
